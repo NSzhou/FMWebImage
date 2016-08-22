@@ -48,6 +48,8 @@ Pod::Spec.new do |s|
   s.author             = { "MJLee" => "xxxxx@qq.com" }
   s.social_media_url   = "http://weibo.com/exceptions"
   s.source       = { :git => "https://github.com/CoderMJLee/MJExtension.git", :tag => s.version }
+  s.frameworks = "UIKit", "Foundation"
+  s.platform     = :ios, "8.0"
   s.source_files  = "MJExtensionExample/MJExtensionExample/MJExtension"
   s.requires_arc = true
 end
